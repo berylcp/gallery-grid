@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #277140;
+}
+
+.container {
+  margin: 10px;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
